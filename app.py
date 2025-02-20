@@ -1,4 +1,6 @@
 import streamlit as st
+import subprocess
+subprocess.run(["pip", "install", "openpyxl"])
 import pandas as pd
 import os
 from io import BytesIO
